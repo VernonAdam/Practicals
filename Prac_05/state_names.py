@@ -5,14 +5,14 @@ File needs reformatting
 """
 
 # TODO: Reformat this file so the dictionary code follows PEP 8 convention
-STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales",
+state_names = {"QLD": "Queensland", "NSW": "New South Wales",
                "NT": "Northern Territory", "WA": "Western Australia",
                "ACT": "Australian Capital Territory", "VIC": "Victoria",
                "TAS": "Tasmania"}
 state = input("Enter short state: ").upper()
 while state != "":
-    if state in STATE_NAMES:
-        print(state, "is", STATE_NAMES[state])
+    if state in state_names:
+        print(state, "is", state_names[state])
 
     else:
         print("Invalid short state")
