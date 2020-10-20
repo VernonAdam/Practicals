@@ -2,9 +2,9 @@
 CP1404/CP5632 Practical - Suggested Solution
 Taxi simulator
 """
-from prac_06.car import Car
-from prac_08.taxi import Taxi
-from prac_08.silver_service_taxi import SilverServiceTaxi
+from Practicals.Prac_06.car import Car
+from Practicals.Prac_08.taxi import Taxi
+from Practicals.Prac_08.silver_service_taxi import SilverServiceTaxi
 
 MENU = "q)uit, c)hoose taxi, d)rive"
 

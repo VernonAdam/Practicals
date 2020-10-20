@@ -6,7 +6,7 @@ File and class example - opens/reads a file, stores in objects of custom class
 import csv
 from collections import namedtuple
 
-from prac_08.programming_language import ProgrammingLanguage
+from Practicals.Prac_08.programming_language import ProgrammingLanguage
 
 
 def main():

@@ -3,7 +3,7 @@ CP1404/CP5632 Practical
 Taxi class, derived from Car
 """
 
-from prac_08.car import Car
+from Practicals.Prac_08.car import Car
 
 
 class Taxi(Car):

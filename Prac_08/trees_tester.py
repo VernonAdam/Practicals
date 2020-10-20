@@ -4,7 +4,7 @@ Testing/example client code for trees classes
 When you complete all the subclasses, you'll see that they behave differently.
 """
 
-import Praticals.Prac_08.trees as trees
+import Practicals.Prac_08.trees as trees
 
 
 def main():
