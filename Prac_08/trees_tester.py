@@ -3,7 +3,8 @@ CP1404/CP5632 Practical
 Testing/example client code for trees classes
 When you complete all the subclasses, you'll see that they behave differently.
 """
-import prac_08.trees as trees
+
+import Praticals.Prac_08.trees as trees
 
 
 def main():
@@ -28,6 +29,9 @@ def main():
     for tree in tree_list:
         print(tree.__class__)
         print(tree)
+
+
+main()
 
 
 main()
