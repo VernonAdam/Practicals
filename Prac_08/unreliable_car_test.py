@@ -8,7 +8,7 @@ from Practicals.Prac_08.unreliable_car import UnreliableCar
 
 
 def main():
-    """Test some UnreliableCars."""
+    """Test UnreliableCars."""
 
     # create cars with different reliabilities
     good_car = UnreliableCar("Mostly Good", 100, 90)
