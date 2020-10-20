@@ -3,7 +3,6 @@ CP1404/CP5632 Practical
 File and class example - opens/reads a file, stores in objects of custom class
 (contains multiple versions for demonstration: using csv and namedtuple)
 """
-
 import csv
 from collections import namedtuple
 
@@ -32,7 +31,7 @@ def main():
         reflection = parts[2] == "Yes"
 
         # construct a ProgrammingLanguage object using the elements
-        # year should be an int
+        # year should be an integer
         language = ProgrammingLanguage(parts[0], parts[1], reflection,
                                        int(parts[3]))
 
